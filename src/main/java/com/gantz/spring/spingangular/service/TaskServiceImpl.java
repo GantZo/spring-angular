@@ -17,11 +17,11 @@ public class TaskServiceImpl implements TaskService {
 
     @Override
     public Collection<Task> list() {
-        return taskRepository.findAll();
+        return this.taskRepository.findAll();
     }
 
     @Override
     public Task save(Task task) {
-        return null;
+        return this.taskRepository.save(task);
     }
 }
