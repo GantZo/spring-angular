@@ -26,3 +26,9 @@ mvnw.cmd
 /dist/
 /nbdist/
 /.nb-gradle/
+
+#Angular
+src/main/frontend/node_modules
+
+#db
+*.mv.db
